@@ -7,6 +7,11 @@ Vue.config.productionTip = false;
 
 new Vue({
   el: '#app',
+  data() {
+    return {
+      items: []
+    };
+  },
   router,
   render: h => h(App)
 });
